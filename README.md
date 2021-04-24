@@ -16,12 +16,11 @@ You will implement a single software system in Java to perform all system functi
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/store-and-search-gis.PNG) 
 
 ## Where is all the data structures implemented?
-
+![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/data-structures-locations.PNG)
 ## High Level GIS Design:
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/high-level-gis-code.PNG)
 
 *Explanation:
-
 ## How to run?
 First, unzip the submitted zip gis-virginia-parser file.
 
