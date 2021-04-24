@@ -13,12 +13,12 @@ Your system will build and maintain several in-memory index data structures to s
 You will implement a single software system in Java to perform all system functions.
 
 ## Store & Search GIS Design:
-![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/store-and-search-gis.PNG) 
+![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/store-and-search-gis.PNG) 
 
 ## Where is all the data structures implemented?
-![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/data-structures-locations.PNG)
+![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/data-structures-locations.PNG)
 ## High Level GIS Design:
-![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/high-level-gis-code.PNG)
+![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/high-level-gis-code.PNG)
 
 *Explanation:
 ## How to run?
@@ -63,4 +63,4 @@ H. Samet, “Storing a collection of polygons using quadtrees.” [Online]. Avai
 You know what VT's Honor Code is, Hokies :). Don't do it. You have been warned.
 
 ## Source Tree:
-![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/folder%20tree.PNG)
+![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/folder%20tree.PNG)
