@@ -23,3 +23,4 @@ H. Samet, “Storing a collection of polygons using quadtrees.” [Online]. Avai
 You know what VT's Honor Code is, Hokies :). Don't do it. You have been warned.
 
 ## Source Tree
+![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/folder%20tree.PNG)
