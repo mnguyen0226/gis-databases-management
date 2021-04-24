@@ -16,21 +16,7 @@ You will implement a single software system in Java to perform all system functi
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/store-and-search-gis.PNG) 
 
 ## Where is all the data structures implemented?
-Element              Line    File
------------------------------------------------------------------------
-Hash table           46      J4/src/gis/hashtableds/Hash/hashTable.java
-Hash table element   26      J4/src/gis/hashtableds/Hash/nameEntry.java
 
-PR quadtree          29      J4/src/gis/prquadtreeds/PRQuadtree.java
-PR quadtree element  32      J4/src/gis/prquadtreeds/Point.java
-
-Buffer pool          30      J4/src/gis/bufferpoolds/BufferPool.java
-
-GIS record           28      J4/src/gis/GIS.java
-
-Feature name index   32      J4/src/gis/hashtableds/HashFeaNameIndex.java
-
-Location index       32      J4/src/gis/prquadtreeds/PRQuadCoorIndex.java
 ## High Level GIS Design:
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/design/high-level-gis-code.PNG)
 
