@@ -13,15 +13,11 @@ Your system will build and maintain several in-memory index data structures to s
 You will implement a single software system in Java to perform all system functions.
 ## Store & Search GIS Design:
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/store-and-search-gis.PNG) 
-*Explanation:
-
 ## Where is all the data structures implemented?
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/data-structures-locations.PNG)
 ## High Level GIS Design:
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/high-level-gis-code.PNG)
-
-*Explanation:
-## How to run?
+## How to run? (password will be given to related individuals only):
 First, unzip the submitted zip gis-virginia-parser file.
 
 Second, add in the records files in the src/. (Already added)
