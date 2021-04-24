@@ -27,24 +27,28 @@ Third, add in the command script log in src/scripts. (Already added)
 Fourth, execute compilations in (next steps) and testing in (steps after).
 
 *Compilation: All command below will be executed in the src/. Please follow all of them to avoid mis-compilation errors. Make sure to cd to src/.
-- J4\src> javac .\gis\*.java	
-- J4\src> javac .\gis\bufferpoolds\*.java
-- J4\src> javac .\gis\hashtableds\*.java 
-- J4\src> javac .\gis\hashtableds\Hash\*.java
-- J4\src> javac .\gis\objectmodel\*.java  
-- J4\src> javac .\gis\prquadtreeds\*.java
+```
+J4\src> javac .\gis\*.java	
+J4\src> javac .\gis\bufferpoolds\*.java
+J4\src> javac .\gis\hashtableds\*.java 
+J4\src> javac .\gis\hashtableds\Hash\*.java
+J4\src> javac .\gis\objectmodel\*.java  
+J4\src> javac .\gis\prquadtreeds\*.java
+```
 
 *Test: All command below will be executed in the src/. Make sure to cd to src/. Commands will create new databases, new output log files
-- Script01: J4\src> java gis/GIS gis_db/db1.txt scripts/Script01.txt logs/log1.txt
-- Script02: J4\src> java gis/GIS gis_db/db2.txt scripts/Script02.txt logs/log2.txt
-- Script03: J4\src> java gis/GIS gis_db/db3.txt scripts/Script03.txt logs/log3.txt
-- Script04: J4\src> java gis/GIS gis_db/db4.txt scripts/Script04.txt logs/log4.txt
-- Script05: J4\src> java gis/GIS gis_db/db5.txt scripts/Script05.txt logs/log5.txt
-- Script06: J4\src> java gis/GIS gis_db/db6.txt scripts/Script06.txt logs/log6.txt
-- Script07: J4\src> java gis/GIS gis_db/db7.txt scripts/Script07.txt logs/log7.txt
-- Script08: J4\src> java gis/GIS gis_db/db8.txt scripts/Script08.txt logs/log8.txt
-- Script09: J4\src> java gis/GIS gis_db/db9.txt scripts/Script09.txt logs/log9.txt
-- Script10: J4\src> java gis/GIS gis_db/db10.txt scripts/Script10.txt logs/log10.txt
+```
+Script01: J4\src> java gis/GIS gis_db/db1.txt scripts/Script01.txt logs/log1.txt
+Script02: J4\src> java gis/GIS gis_db/db2.txt scripts/Script02.txt logs/log2.txt
+Script03: J4\src> java gis/GIS gis_db/db3.txt scripts/Script03.txt logs/log3.txt
+Script04: J4\src> java gis/GIS gis_db/db4.txt scripts/Script04.txt logs/log4.txt
+Script05: J4\src> java gis/GIS gis_db/db5.txt scripts/Script05.txt logs/log5.txt
+Script06: J4\src> java gis/GIS gis_db/db6.txt scripts/Script06.txt logs/log6.txt
+Script07: J4\src> java gis/GIS gis_db/db7.txt scripts/Script07.txt logs/log7.txt
+Script08: J4\src> java gis/GIS gis_db/db8.txt scripts/Script08.txt logs/log8.txt
+Script09: J4\src> java gis/GIS gis_db/db9.txt scripts/Script09.txt logs/log9.txt
+Script10: J4\src> java gis/GIS gis_db/db10.txt scripts/Script10.txt logs/log10.txt
+```
 ## Lectures:
 - (1) Hash Table: https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/hash-table
 - (2) PR Quad Tree: https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/pr-quad-tree
