@@ -17,7 +17,7 @@ You will implement a single software system in Java to perform all system functi
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/data-structures-locations.PNG)
 ## High Level GIS Design:
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/high-level-gis-code.PNG)
-## How to run? (password will be given to related individuals only):
+## How to run? (password will be given to related individuals only - same password from the smart home project on my resume):
 First, unzip the submitted zip gis-virginia-parser file.
 
 Second, add in the records files in the src/. (Already added)
