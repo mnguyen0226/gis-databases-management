@@ -50,12 +50,12 @@ Script09: J4\src> java gis/GIS gis_db/db9.txt scripts/Script09.txt logs/log9.txt
 Script10: J4\src> java gis/GIS gis_db/db10.txt scripts/Script10.txt logs/log10.txt
 ```
 ## Lectures:
-- (1) Hash Table: https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/hash-table
-- (2) PR Quad Tree: https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/pr-quad-tree
-- (3) Buffer Pool: https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/bufferpool
-- (4) Design: https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/design%20lecture
+- (1) [Hash Table](https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/hash-table)
+- (2) [PR Quad Tree](https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/pr-quad-tree)
+- (3) [Buffer Pool](https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/bufferpool)
+- (4) [Design](https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/design%20lecture)
 ## Paper:
-H. Samet, “Storing a collection of polygons using quadtrees.” [Online]. Available: https://infolab.usc.edu/csci585/Spring2008/den_ar/p182-samet.pdf. [Accessed: 20-Apr-2021]. 
+H. Samet, “Storing a collection of polygons using quadtrees.” [Online]. [Available](https://infolab.usc.edu/csci585/Spring2008/den_ar/p182-samet.pdf.) [Accessed: 20-Apr-2021]. 
 ## Honor Code @VT Warning:
 You know what VT's Honor Code is, Hokies :). Don't do it. You have been warned.
 ## Source Tree:
