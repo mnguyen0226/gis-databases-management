@@ -1,4 +1,4 @@
-# GIS Virginia Parser Project - CS 3114
+# Geographic Information Data Management System
 
 ## Project Specification:
 You will implement a system that indexes and provides search features for a file of GIS records, as described above.
