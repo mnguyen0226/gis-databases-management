@@ -1,0 +1,69 @@
+; Script 9
+;
+; Test of search failures with a large database file.
+;
+; Specify boundaries of coordinate space:
+world	0860000W	0750000W	320000N	430000N
+
+GIS Program
+
+dbFile:     gis_db/db9.txt
+script:     scripts/Script09.txt
+log:        logs/log9.txt
+Start time: Tue Apr 20 20:02:08 EDT 2021
+Quadtree children are printed in the order SW  SE  NE  NW
+--------------------------------------------------------------------------------
+
+Latitude/longitude values in index entries are shown as signed integers, in total seconds.
+
+World boundaries are set to:
+              154800
+   -309600                -270000
+              115200
+--------------------------------------------------------------------------------
+;
+; Import a large DB file:
+Command 1: import 	 VA_All.txt
+
+Imported Features by name: 59546
+Imported Locations::       59546
+Average name length:       18
+--------------------------------------------------------------------------------
+;
+; Check the location and name/state indices if you dare:
+;debug	quad
+;debug	hash
+;
+; Try a few name/state searches for nonexistent features:
+Command 2: what is	Bleaksburg	VA
+
+No records match Bleaksburg and VA
+--------------------------------------------------------------------------------
+Command 3: what is	Nova	VA
+
+No records match Nova and VA
+--------------------------------------------------------------------------------
+Command 4: what is	Wet Run	VA
+
+No records match Wet Run and VA
+--------------------------------------------------------------------------------
+;
+; Try a location search for an empty location:
+Command 5:  what_is_at	383340N	0793423W
+
+   Nothing was found at (79d 34m 23s West, 38d 33m 40s North)
+--------------------------------------------------------------------------------
+;
+; And a search for an empty region:
+Command 6:  what_is_in	363206N	0804752W 6	6
+
+   Nothing was found at (80d 47m 52s West +/- 6, 36d 32m 6s North +/- 6)
+--------------------------------------------------------------------------------
+;
+; Exit
+Command 7: quit 
+
+
+Terminating execution of commands.
+End time: Tue Apr 20 20:02:08 EDT 2021
+--------------------------------------------------------------------------------
