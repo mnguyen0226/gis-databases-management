@@ -56,7 +56,6 @@ Script10: J4\src> java gis/GIS gis_db/db10.txt scripts/Script10.txt logs/log10.t
 - (4) [Design](https://github.com/mnguyen0226/gis-virginia-parser/tree/main/lecture%20notes/design%20lecture)
 ## Paper:
 H. Samet, “Storing a collection of polygons using quadtrees.” [Online]. [Available](https://infolab.usc.edu/csci585/Spring2008/den_ar/p182-samet.pdf.) [Accessed: 20-Apr-2021]. 
-## Honor Code @VT Warning:
-You know what VT's Honor Code is, Hokies :). Don't do it. You have been warned.
+
 ## Source Tree:
 ![alt text](https://github.com/mnguyen0226/gis-virginia-parser/blob/main/imgs/folder%20tree.PNG)
